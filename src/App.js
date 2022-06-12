@@ -1,21 +1,14 @@
+import React from "react";
 import "./App.css";
-import Home from "./Home";
-import Header from "./Header";
+//import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Home, Footer, Header } from "./components";
 
 function App() {
 	return (
 		<div className="app">
 			<Header />
 			<Home />
-
-			{/* HOME */}
-			{/* Header */}
-			{/* Banner */}
-			{/* Search */}
-			{/* Cards */}
-			{/* Footer */}
-			{/* SearchPage */}
-			{/* ...*/}
+			<Footer />
 		</div>
 	);
 }
