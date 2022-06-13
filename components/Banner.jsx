@@ -1,12 +1,11 @@
 import { Button } from "@mui/material";
 import React, { useState } from "react";
-import "./banner.css";
 import Search from "./Search";
-import { useHistory } from "react-router-dom";
+import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Banner = () => {
-	const history = useHistory();
-
+	const navigate = useRouter();
 	const [showSearch, setShowSearch] = useState(false);
 
 	return (
@@ -25,7 +24,7 @@ const Banner = () => {
 				<h1>Let your curiosity do the booking</h1>
 				<h5>Plan a different kind of gateways to uncover the gems near your</h5>
 
-				<Button onClick={() => history.push("/search")} variant="outlined">
+				<Button onClick={() => navigate("/search")} variant="outlined">
 					Explore Nearby
 				</Button>
 			</div>

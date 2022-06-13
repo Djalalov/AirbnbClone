@@ -6,10 +6,11 @@ import "react-date-range/dist/theme/default.css";
 import { DateRangePicker } from "react-date-range";
 import { Button } from "@mui/material";
 import PeopleIcon from "@mui/icons-material/People";
-import { useHistory } from "react-router-dom";
+import { useRouter } from "next/router";
 
 const Search = () => {
-	const history = useHistory();
+	const navigate = useRouter();
+
 	const [startDate, setStartDate] = useState(new Date());
 	const [endDate, setEndDate] = useState(new Date());
 
@@ -31,7 +32,7 @@ const Search = () => {
 			</h2>
 
 			<input type="number" min={0} defaultValue={2} />
-			<Button onClick={() => history.push("/search")}>Search Airbnb</Button>
+			<Button onClick={() => navigate("/search")}>Search Airbnb</Button>
 		</div>
 	);
 };
