@@ -1,5 +1,4 @@
 import React from "react";
-import "./searchResult.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import StarIcon from "@mui/icons-material/Star";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import "./home.css";
 import Banner from "./Banner";
 import Card from "./Card";
 

@@ -1,7 +1,5 @@
 module.exports = {
-	reactStrictMode: true,
-
 	images: {
-		domains: ["i.pinimg.com"],
+		domains: ["i.pinimg.com", "yandex.com"],
 	},
 };
