@@ -4,6 +4,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from "../Avatar";
 import MenuItem from "./MenuItem";
 
+const test = () => {};
 const UserMenu = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
