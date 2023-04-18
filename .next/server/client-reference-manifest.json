@@ -2920,6 +2920,32 @@
         "async": false
       }
     },
+    "(app-client)/./app/components/ClientsOnly.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/ClientsOnly.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/ClientsOnly.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/ClientsOnly.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/Container.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/Container.tsx",
@@ -2991,6 +3017,32 @@
       },
       "default": {
         "id": "(sc_client)/./app/components/navbar/MenuItem.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/navbar/Navbar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/navbar/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/navbar/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/navbar/Navbar.tsx",
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
@@ -3105,11 +3157,11 @@
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/el/projects/el-airbnb/app/page": [
-      "static/css/app/page.css"
-    ],
     "/home/el/projects/el-airbnb/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/home/el/projects/el-airbnb/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -9593,13 +9645,6 @@
       ],
       "async": false
     },
-    "/home/el/projects/el-airbnb/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
-    },
     "/home/el/projects/el-airbnb/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -9632,6 +9677,30 @@
     },
     "/home/el/projects/el-airbnb/app/components/Avatar.tsx#default": {
       "id": "(app-client)/./app/components/Avatar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/ClientsOnly.tsx": {
+      "id": "(app-client)/./app/components/ClientsOnly.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/ClientsOnly.tsx#": {
+      "id": "(app-client)/./app/components/ClientsOnly.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/ClientsOnly.tsx#default": {
+      "id": "(app-client)/./app/components/ClientsOnly.tsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
@@ -9704,6 +9773,30 @@
     },
     "/home/el/projects/el-airbnb/app/components/navbar/MenuItem.tsx#default": {
       "id": "(app-client)/./app/components/navbar/MenuItem.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/navbar/Navbar.tsx": {
+      "id": "(app-client)/./app/components/navbar/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/navbar/Navbar.tsx#": {
+      "id": "(app-client)/./app/components/navbar/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "/home/el/projects/el-airbnb/app/components/navbar/Navbar.tsx#default": {
+      "id": "(app-client)/./app/components/navbar/Navbar.tsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
@@ -10461,6 +10554,13 @@
         "app/layout:app/layout"
       ],
       "async": false
+    },
+    "/home/el/projects/el-airbnb/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
     }
   }
 }
